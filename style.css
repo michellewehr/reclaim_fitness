@@ -1,0 +1,141 @@
+:root {
+  --color-coral: #f05453;
+  --color-salmon: #f39189;
+  --color-grey: #e8e8e8;
+  --color-navy: #00334d;
+}
+body {
+  color: var(--color-navy);
+  text-align: center;
+}
+
+.navbar {
+  background-color: var(--color-navy);
+  padding-left: 1rem;
+}
+.nav-item {
+  padding: 1rem;
+}
+.header {
+  background-image: url(./images/cool.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
+  z-index: 0;
+  position: relative;
+}
+.reclaim-fitness {
+  background-color: rgb(243, 145, 137, 0.6);
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: #00334d;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+/*Mission-statement*/
+
+.statement-text {
+  text-align: left;
+  color: #1b3f52;
+}
+.statement-text h2 {
+  color: var(--color-salmon);
+  font-size: 4em;
+  padding: 2rem;
+}
+.quote {
+  margin-top: 2rem;
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  border: 3px solid;
+  border-radius: 50%;
+  background-color: #e8e8e8;
+}
+.h1-quote {
+  padding-top: 4rem;
+  color: #022030;
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+.workout-heart {
+  margin-top: 0;
+  width: 7rem;
+}
+
+/*Carausal*/
+
+.carousel {
+  padding: 7% 15%;
+}
+
+.carousel-item {
+  height: 700px;
+}
+/* Services */
+
+.container {
+  padding-left: 14rem;
+}
+.services h2 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.service-icons {
+  color: var(--color-coral);
+  text-align: center;
+  padding-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.feature {
+  color: var(--color-navy);
+  height: 300px;
+  width: 300px;
+}
+.feature-pic {
+  height: 200px;
+}
+
+/* about me */
+
+.About-me {
+  background-color: #3e6276;
+  color: var(--color-grey);
+  padding: 3rem;
+}
+.About-me h1,
+.About-me h2 {
+  margin-bottom: 2rem;
+  font-family: "Dancing script", cursive;
+}
+.About-me-1 {
+  text-align: left;
+}
+.profile-pic {
+  border: 1px solid var(--color-grey);
+  border-radius: 50%;
+}
+.About-me-pic-row {
+  padding-left: 13%;
+}
+.About-me-pic-row img {
+  border: 1px solid var(--color-grey);
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.instagram {
+  font-size: 1.5rem;
+  color: var(--color-salmon);
+  text-decoration: none;
+}
+.instagram:hover {
+  color: var(--color-grey);
+}
